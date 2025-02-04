@@ -16,7 +16,7 @@ def binary_search(arr, k):
     return ans
 
 
-arr = [6, 7, 9, 5, 3, 10]
+arr = [3, 5, 6, 7, 9, 10]
 k = 10
 result = binary_search(arr, k)
 print(result)
