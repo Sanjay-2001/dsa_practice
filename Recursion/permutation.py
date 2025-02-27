@@ -1,3 +1,5 @@
+# permutation
+
 def generateSeq(elements, result, path, used):
     if len(path) == len(elements):
         result.add("".join(path))
